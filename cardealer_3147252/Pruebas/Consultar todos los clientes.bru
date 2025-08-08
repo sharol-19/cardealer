@@ -1,0 +1,15 @@
+meta {
+  name: Consultar todos los clientes
+  type: http
+  seq: 2
+}
+
+get {
+  url: http:localhost:3000/empleados
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

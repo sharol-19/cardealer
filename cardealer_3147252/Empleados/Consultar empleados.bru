@@ -1,0 +1,15 @@
+meta {
+  name: Consultar empleados
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:3000/empleados/10
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
